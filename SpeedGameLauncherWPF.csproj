@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>SpeedGame.ico</ApplicationIcon>
+    <DebugType>embedded</DebugType>
+    <PackageIcon>SpeedGame.png</PackageIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BackgroundImage.png" />
+    <None Remove="SpeedGame.png" />
+    <None Remove="SpeedGameLauncherBackground.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="SpeedGame.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Albin\Downloads\SpeedGame.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BackgroundImage.png" />
+    <Resource Include="SpeedGame.png" />
+    <Resource Include="SpeedGameLauncherBackground.jpg" />
+  </ItemGroup>
+
+</Project>
