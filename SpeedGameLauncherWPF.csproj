@@ -16,6 +16,8 @@
 
   <ItemGroup>
     <None Remove="BackgroundImage.png" />
+    <None Remove="Smartly Gophered-01.png" />
+    <None Remove="Smartly Gophered-02.png" />
     <None Remove="SpeedGame.png" />
     <None Remove="SpeedGameLauncherBackground.jpg" />
   </ItemGroup>
@@ -33,6 +35,8 @@
 
   <ItemGroup>
     <Resource Include="BackgroundImage.png" />
+    <Resource Include="Smartly Gophered-01.png" />
+    <Resource Include="Smartly Gophered-02.png" />
     <Resource Include="SpeedGame.png" />
     <Resource Include="SpeedGameLauncherBackground.jpg" />
   </ItemGroup>

@@ -13,5 +13,6 @@
         <Button x:Name="QuitButton" Content="Close Launcher" HorizontalAlignment="Left" Margin="10,388,0,0" VerticalAlignment="Top" Background="#FFDA0000" Height="31" Width="220" FontFamily="Microsoft YaHei" FontSize="16" Foreground="White" FontStyle="Normal" FontWeight="SemiBold" Click="QuitButton_Click"/>
         <Button x:Name="PlayGameDX12" Content="Play Game using DirectX12" HorizontalAlignment="Left" Margin="10,348,0,0" VerticalAlignment="Top" Background="#FFDA0000" Height="31" Width="220" FontFamily="Microsoft YaHei" FontSize="15" Foreground="White" FontStyle="Normal" FontWeight="SemiBold" Click="PlayGameDX12_Click"/>
         <Button x:Name="PlayGameDefault" Content="Play Game" HorizontalAlignment="Left" Margin="10,308,0,0" VerticalAlignment="Top" Background="#FFDA0000" Height="31" Width="220" FontFamily="Microsoft YaHei" FontSize="20" Foreground="White" FontStyle="Normal" FontWeight="SemiBold" Click="PlayGameDefault_Click"/>
+        <Image HorizontalAlignment="Center" Height="369" Margin="0,-106,0,0" VerticalAlignment="Top" Width="636" Source="/Smartly Gophered-02.png" Stretch="Fill" StretchDirection="Both"/>
     </Grid>
 </Window>
